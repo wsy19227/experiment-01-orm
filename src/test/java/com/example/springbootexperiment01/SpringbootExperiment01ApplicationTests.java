@@ -24,6 +24,7 @@ public class SpringbootExperiment01ApplicationTests {
 
     @Test
     public void addElectiveTest() {
+         electiveRepository.addStudentAndCourse();
          electiveRepository.addElective();
     }
 }
